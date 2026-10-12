@@ -1,20 +1,31 @@
 # Status
 
-## CLOSED
+Last updated: 2026-10-12
 
-- Finite Pick PSD → finite closed-Schur interpolation
-- Schur reduction and Schur complement PSD transport
-- Inverse Schur reconstruction
-- Montel compactness
-- All-depth positivity → global Schur limit
-- Right-half-plane interpolant H
-- H holomorphic / positive-real / Pick interpolation
+This document tracks the current formalization status of the
+SEERAVERSE Riemann Hypothesis research program.
+
+## Kernel-checked components
+
+The following major components have been formalized in Lean 4 / Mathlib
+and currently build successfully:
+
+- finite Nevanlinna–Pick sufficiency
+- Schur reduction and Schur-complement PSD transport
+- inverse Schur reconstruction
+- Montel / normal-family compactness
+- all-depth positivity to a global Schur interpolant
+- right-half-plane interpolant construction
+- holomorphicity / positive-real properties of the interpolant
 - Jensen / non-Blaschke rigidity
-- Meromorphic continuation
-- MeromorphicOn R_boundary rightHalfPlane
+- meromorphic identity continuation
+- meromorphicity of `R_boundary` on the right half-plane
+- pole formation of `R_boundary` from arbitrary-multiplicity zeros of `xi`
+- pole-exclusion assembly from the Montel / rigidity data
 
-## OPEN
+## Current analytic obligation
 
-- IsNevanlinnaOn (H - R_boundary) farRightHalfPlane
-- xi zero → R_boundary pole
-- Certificate4052.certificate_freshPivotResidual_positive
+The primary remaining analytic obligation is:
+
+```lean
+IsNevanlinnaOn R_boundary farRightHalfPlane

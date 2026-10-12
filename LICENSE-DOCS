@@ -1,0 +1,40 @@
+Documentation License
+
+Unless otherwise noted, documentation, explanatory text, research notes,
+audit documents, status documents, diagrams, and other non-code textual
+materials in this repository are licensed under the:
+
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+Copyright (c) 2026 SEERAVERSE Research Initiative Inc.
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material for any purpose,
+  including commercially.
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests SEERAVERSE Research Initiative Inc.
+  endorses you or your use.
+
+License information:
+https://creativecommons.org/licenses/by/4.0/
+
+Recommended attribution:
+
+  SEERAVERSE Research Initiative Inc.,
+  "SEERAVERSE RH Formalization and Audit Program,"
+  licensed under CC BY 4.0.
+
+Scope note:
+
+- Lean source files, software code, checkers, and scripts are governed by the
+  BSD 3-Clause License in the repository's LICENSE file.
+- This LICENSE-DOCS file applies to documentation and other non-code textual
+  materials unless a specific file states otherwise.
+- Third-party materials, if any, remain subject to their respective licenses
+  and notices.

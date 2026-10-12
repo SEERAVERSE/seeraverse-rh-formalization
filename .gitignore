@@ -1,0 +1,29 @@
+# Lean / Lake
+/.lake/
+
+# Editor / IDE
+.vscode/
+.idea/
+.cursor/
+
+# Python / cache
+__pycache__/
+*.pyc
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
+
+# Local environments / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local research / certificate workspaces
+FINAL_PACKAGE_*/
+LEAN_CERT_EXPORT_DEV_*/

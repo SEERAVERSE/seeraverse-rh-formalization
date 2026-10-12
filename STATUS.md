@@ -442,42 +442,12 @@ A later analytic-source bridge is required for full kernel trust.
 
 ## Build status
 
-The current Lean source has been verified in both the local development
-environment and GitHub Actions CI.
-
-Local build:
+Latest reported local build:
 
 ```text
-Target:
-SEERAVERSE.MainChain
-
-Result:
-PASS
-
-Build:
-8965 / 8965 jobs completed successfully
+lake build SEERAVERSE.MainChain
+Build completed successfully (8965 jobs).
 ```
-
-GitHub Actions CI:
-
-```text
-Workflow:
-Lean CI
-
-Environment:
-GitHub-hosted Ubuntu runner
-
-Result:
-PASS
-
-Verified commit:
-665e9d5
-```
-
-This establishes cross-environment build reproducibility for the current
-repository source. It does not by itself discharge the remaining analytic,
-certificate, or external-source trust obligations tracked elsewhere in this
-document and in `AUDIT.md`.
 
 The principal recently audited theorems reported only standard Lean axioms:
 
@@ -564,12 +534,6 @@ NOT STARTED
 
 Lean finite-certificate checker:
 NOT YET IMPLEMENTED
-
-Lean source build:
-PASS — local, 8965 / 8965 jobs
-
-GitHub Actions CI:
-PASS — Lean CI, GitHub-hosted Ubuntu, commit 665e9d5
 
 Full end-to-end kernel verification:
 NOT YET COMPLETE

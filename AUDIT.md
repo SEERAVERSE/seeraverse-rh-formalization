@@ -504,18 +504,6 @@ They do not themselves remove the project-specific Lean axiom.
 Lean source build:
 PASS locally
 
-Main target:
-SEERAVERSE.MainChain
-
-GitHub Actions CI:
-PASS
-
-Environment:
-GitHub-hosted Ubuntu runner
-
-Workflow:
-Lean CI
-
 Major audited Lean theorem dependencies:
 [propext, Classical.choice, Quot.sound]
 
